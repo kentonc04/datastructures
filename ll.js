@@ -70,7 +70,7 @@ class LinkedList {
   }
   isEmpty() {
     //read it
-    return this.length === 0;
+    return this.head === null;
   }
 }
 
@@ -104,3 +104,5 @@ class Node {
     return this.next;
   }
 }
+
+module.exports = { LinkedList };
